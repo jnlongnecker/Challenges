@@ -1,0 +1,81 @@
+:root {
+    --color-dark: #A7727D;
+    --color-mid: #EDDBC7;
+    --color-light: #F9F5E7;
+}
+
+img {
+    max-width: 25ch;
+}
+
+body {
+    margin: 0;
+    padding: 0 20vw;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--color-light);
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+    color: var(--color-dark);
+}
+
+li::marker {
+    color: var(--color-dark);
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--color-dark);
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+hr {
+    height: 0;
+    border: 0;
+    border-top: 20px dotted var(--color-dark);
+}
+
+button {
+    width: 25ch;
+    border: 1px solid var(--color-dark);
+    border-radius: 5px;
+    color: var(--color-dark);
+    padding: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    color: var(--color-light);
+    background-color: var(--color-dark);
+}
+
+input[type="text"] {
+    border: 1px solid var(--color-dark);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+input[type="text"]:focus {
+    outline: 2px solid var(--color-dark);
+}
+
+#input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 3rem;
+}
