@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Case.Web Assignment</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Case.Web Response</members>
+        <name>AutoResponseRule</name>
+    </types>
+    <types>
+        <members>Schooling</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>ZipCode__c</members>
+        <members>ClassRoster__c</members>
+        <members>Class__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Class__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Schooling_UtilityBar</members>
+        <members>Class_Record_Page</members>
+        <name>Flexipage</name>
+    </types>
+    <types>
+        <members>Subjects</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Class__c-History Layout</members>
+        <members>Class__c-Math Layout</members>
+        <members>Class__c-Science Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Enhanced_Lead_Path</members>
+        <name>PathAssistant</name>
+    </types>
+    <types>
+        <members>SeniorTeacher</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Teacher</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Class__c.Enroll_Student</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Case.VIP</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Teacher</members>
+        <members>Senior_Teacher</members>
+        <members>Vice_Principal</members>
+        <members>Principal</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>Contact.Valid_zip_code</members>
+        <members>Contact.One_Phone_Minimum</members>
+        <members>Contact.Valid_email_format</members>
+        <members>Contact.Contact_age_minimum_10</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Case.VIP Process</members>
+        <name>BusinessProcess</name>
+    </types>
+    <!-- 
+        Only here to ensure orgs without the default trailhead 
+        case response template can receive the auto-response rule 
+    -->
+    <types>
+        <members>unfiled$public/SupportCaseResponse</members>
+        <name>EmailTemplate</name>
+    </types>
+    <version>56.0</version>
+</Package>

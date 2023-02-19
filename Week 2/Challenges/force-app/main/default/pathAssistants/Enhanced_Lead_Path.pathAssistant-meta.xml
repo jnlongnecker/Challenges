@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Enhanced Lead Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Address</fieldNames>
+        <fieldNames>MobilePhone</fieldNames>
+        <fieldNames>DoNotCall</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>HasOptedOutOfEmail</fieldNames>
+        <picklistValueName>Open - Not Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>NumberOfEmployees</fieldNames>
+        <fieldNames>AnnualRevenue</fieldNames>
+        <fieldNames>Industry</fieldNames>
+        <picklistValueName>Working - Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Algebra</fullName>
+        <default>false</default>
+        <label>Algebra</label>
+    </customValue>
+    <customValue>
+        <fullName>Geometry</fullName>
+        <default>false</default>
+        <label>Geometry</label>
+    </customValue>
+    <customValue>
+        <fullName>Precalculus</fullName>
+        <default>false</default>
+        <label>Precalculus</label>
+    </customValue>
+    <customValue>
+        <fullName>Calculus</fullName>
+        <default>false</default>
+        <label>Calculus</label>
+    </customValue>
+    <customValue>
+        <fullName>Geology</fullName>
+        <default>false</default>
+        <label>Geology</label>
+    </customValue>
+    <customValue>
+        <fullName>Biology</fullName>
+        <default>false</default>
+        <label>Biology</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemistry</fullName>
+        <default>false</default>
+        <label>Chemistry</label>
+    </customValue>
+    <customValue>
+        <fullName>Physics</fullName>
+        <default>false</default>
+        <label>Physics</label>
+    </customValue>
+    <customValue>
+        <fullName>World Geography</fullName>
+        <default>false</default>
+        <label>World Geography</label>
+    </customValue>
+    <customValue>
+        <fullName>World History</fullName>
+        <default>false</default>
+        <label>World History</label>
+    </customValue>
+    <customValue>
+        <fullName>American History</fullName>
+        <default>false</default>
+        <label>American History</label>
+    </customValue>
+    <customValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <label>Government</label>
+    </customValue>
+    <customValue>
+        <fullName>Macroeconomics</fullName>
+        <default>false</default>
+        <label>Macroeconomics</label>
+    </customValue>
+    <masterLabel>Subjects</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
