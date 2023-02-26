@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ClassRoster__c</members>
+        <members>Class__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Class__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Subjects</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>C_1_Create_Class_Roster</members>
+        <members>C_2_Create_Class_Roster</members>
+        <members>C_3_Create_Multiple_Class_Rosters</members>
+        <members>C_5_Student_Response_Email</members>
+        <members>C_6_Send_Cancellation_and_Enrollment_Emails</members>
+        <members>E_1_Create_Students_from_Class_with_Capactiy</members>
+        <members>E_2_Waitlist_Students_on_Full_Classes</members>
+        <members>E_3_Automatically_Share_with_Teacher</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Class__c-History Layout</members>
+        <members>Class__c-Math Layout</members>
+        <members>Class__c-Science Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Class__c.EnrollStudent</members>
+        <members>Class__c.Add_Students</members>
+        <name>QuickAction</name>
+    </types>
+    <version>56.0</version>
+</Package>
