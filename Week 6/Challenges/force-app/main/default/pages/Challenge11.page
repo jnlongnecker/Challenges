@@ -1,0 +1,20 @@
+<apex:page controller="Challenge11Controller">
+    <apex:form >
+        
+        <apex:pageBlock title="Accounts and Contacts" tabStyle="Contact">
+            <apex:actionRegion >
+                <apex:inputText value="{!searchFilter}">
+                	<apex:actionSupport event="onkeyup" reRender="table" />
+                </apex:inputText>
+            </apex:actionRegion>
+            <apex:pageBlockTable id="table" value="{!myAccs}" var="wrap">
+                <apex:column headerValue="Account Name" >
+                    <apex:outputField value="{!wrap.acc.Name}" >
+                    	<apex:inlineEditSupport />
+                    </apex:outputField>
+                </apex:column>
+                <apex:column value="{!wrap.contactNames}" headerValue="Contact Names" />
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,17 @@
+<apex:page standardController="Account" recordSetVar="accs">
+    <apex:form >
+        <apex:pageBlock title="All Accounts">
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!previous}" value="Previous 20" />
+                <apex:commandButton action="{!next}" value="Next 20" />
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockTable value="{!accs}" var="acc">
+                <apex:column value="{!acc.Name}" />
+                <apex:column value="{!acc.AnnualRevenue}" />
+                <apex:column value="{!acc.Rating}" />
+                <apex:column value="{!acc.Industry}" />
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

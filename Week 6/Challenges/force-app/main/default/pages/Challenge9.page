@@ -1,0 +1,8 @@
+<apex:page controller="Challenge9Controller">
+    <apex:pageBlock title="Accounts and Contacts" tabStyle="Contact">
+    	<apex:pageBlockTable value="{!myAccs}" var="wrap">
+        	<apex:column value="{!wrap.acc.Name}" headerValue="Account Name" />
+        	<apex:column value="{!wrap.contactNames}" headerValue="Contact Names" />
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

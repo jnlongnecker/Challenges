@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AboutMe</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AboutMe</shortDescription>
+        <value>Hello, my name is Jared! I&apos;m a Salesforce trainer with 2 years of experience training the material. My favorite topic to teach and work with is Lightning Web Components! They&apos;re a great deal of fun to use and I even use the open-source version to make a website as a side project.</value>
+    </labels>
+</CustomLabels>

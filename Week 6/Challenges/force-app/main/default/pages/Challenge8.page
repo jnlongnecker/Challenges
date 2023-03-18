@@ -1,0 +1,15 @@
+<apex:page controller="Challenge7Controller">
+    <apex:form >
+        <apex:pageBlock title="Search for an Account">
+            <apex:pageBlockButtons >
+            	<apex:commandButton action="{!find}" value="Search" />
+            </apex:pageBlockButtons>
+            <apex:inputText value="{!searchTerm}" />
+            <apex:outputPanel rendered="{!acc != null}">
+                <apex:dataList value="{!acc.Contacts}" var="con">
+                	<apex:outputText value="{!con.Name}" />
+                </apex:dataList>
+            </apex:outputPanel>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,12 @@
+<apex:page >
+    <apex:stylesheet value="{!$Resource.EliteStyles}"/>
+    <div class="container">
+        <h1>
+            All About Penguins
+        </h1>
+        <apex:iframe scrolling="false" html-class="frame" src="https://en.wikipedia.org/wiki/Penguin"/>
+        <p>
+            This was a great page because I got to see penguins; my favorite animal. It's always great to see all the different species.
+        </p>
+    </div>
+</apex:page>

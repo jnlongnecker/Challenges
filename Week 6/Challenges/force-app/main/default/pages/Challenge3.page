@@ -1,0 +1,3 @@
+<apex:page controller="Challenge3Controller" >
+    <apex:detail subject="{!acc.Id}" title="The Account" relatedList="false" />
+</apex:page>

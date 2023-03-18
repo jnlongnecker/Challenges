@@ -1,0 +1,9 @@
+<apex:page controller="Challenge6Controller">
+    <apex:form >
+        <apex:pageBlock title="{!greeting}">
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!greet}" value="Show Greeting" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

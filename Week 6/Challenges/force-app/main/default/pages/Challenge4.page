@@ -1,0 +1,5 @@
+<apex:page >
+    <apex:pageBlock title="All About Me">
+        {!$Label.AboutMe}
+    </apex:pageBlock>
+</apex:page>

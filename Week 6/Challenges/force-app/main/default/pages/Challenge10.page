@@ -1,0 +1,10 @@
+<apex:page controller="Challenge10Controller">
+    <apex:form >
+        <apex:pageBlock title="Input a Name Filter for Accounts" tabStyle="Account">
+            <apex:pageBlockButtons >
+            	<apex:commandButton action="{!applyFilter}" value="Apply" />
+            </apex:pageBlockButtons>
+            <apex:inputText value="{!filter}" />
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,12 @@
+<apex:page >
+    <apex:stylesheet value="{!$Resource.AboutStyles}"/>
+    
+    <div class="container">
+        <h1>
+            All About Me
+        </h1>
+        <p>
+            {!$Label.AboutMe}
+        </p>
+    </div>
+</apex:page>
