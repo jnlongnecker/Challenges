@@ -7,11 +7,4 @@
         <shortDescription>AboutMe</shortDescription>
         <value>Hello, my name is Jared! I&apos;m a Salesforce trainer with 2 years of experience training the material. My favorite topic to teach and work with is Lightning Web Components! They&apos;re a great deal of fun to use and I even use the open-source version to make a website as a side project.</value>
     </labels>
-    <labels>
-        <fullName>LoremIpsum</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Lorem Ipsum</shortDescription>
-        <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed diam mi. Ut ex nisi, scelerisque ac augue non, consequat ultricies diam. Vestibulum scelerisque aliquet risus ut lobortis. Proin tempus sapien a dui molestie volutpat. Nam et tellus dolor. Morbi eget scelerisque leo. In turpis eros, convallis vel leo sit amet, iaculis convallis lorem. Cras consequat tellus ornare lorem tempor, vel euismod massa lobortis.</value>
-    </labels>
 </CustomLabels>
