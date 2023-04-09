@@ -1,0 +1,12 @@
+<template>
+    <lightning-card>
+        <h1 slot="title">{titleValue}</h1>
+        <lightning-button label="Toggle Input" slot="actions" onclick={toggleInput}></lightning-button>
+        <div class="slds-p-around_medium">
+            <template lwc:if={showInput}>
+                <lightning-input lwc:ref="input" label="Header Value" value={titleValue}
+                    onkeyup={changeTitleValue}></lightning-input>
+            </template>
+        </div>
+    </lightning-card>
+</template>

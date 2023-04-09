@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Favorite Bands">
+        <div class="slds-p-around_medium">
+            <lightning-layout>
+                <lightning-layout-item>
+                    <template iterator:it={bands}>
+                        <c-challenge6_child key={it.value.name} band={it.value}></c-challenge6_child>
+                    </template>
+                </lightning-layout-item>
+                <lightning-layout-item size="8" flexibility="shrink">
+                    <c-challenge6_sidebar></c-challenge6_sidebar>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+</template>

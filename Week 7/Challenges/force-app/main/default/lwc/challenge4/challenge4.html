@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Colored Square">
+        <lightning-button-group slot="actions">
+            <lightning-button label="Red" onclick={redBox}></lightning-button>
+            <lightning-button label="Green" onclick={greenBox}></lightning-button>
+            <lightning-button label="Blue" onclick={blueBox}></lightning-button>
+        </lightning-button-group>
+        <div class="container slds-p-around_medium">
+            <div class={boxClass}></div>
+        </div>
+    </lightning-card>
+</template>

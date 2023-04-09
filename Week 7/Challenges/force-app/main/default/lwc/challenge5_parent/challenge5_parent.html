@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Favorite Bands">
+        <div class="slds-p-around_medium">
+            <template iterator:it={bands}>
+                <c-challenge5_child key={it.value.name} band={it.value}></c-challenge5_child>
+            </template>
+        </div>
+    </lightning-card>
+</template>

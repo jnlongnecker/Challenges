@@ -1,0 +1,9 @@
+<template>
+    <lightning-card lwc:if={contact.data} title={name} icon-name="standard:contact">
+        <ul class="slds-p-horizontal_medium">
+            <li><lightning-formatted-text value={title}></lightning-formatted-text></li>
+            <li><lightning-formatted-phone value={phone}></lightning-formatted-phone></li>
+            <li><lightning-formatted-email value={email}></lightning-formatted-email></li>
+        </ul>
+    </lightning-card>
+</template>

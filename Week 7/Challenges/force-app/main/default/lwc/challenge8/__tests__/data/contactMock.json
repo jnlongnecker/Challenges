@@ -1,0 +1,30 @@
+{
+    "apiName": "Contact",
+    "childRelationships": {},
+    "eTag": "e7abeedd94cd480ebf9e01804c4c20fb",
+    "fields": {
+        "Email": {
+            "displayValue": null,
+            "value": "test_contact@fake.com"
+        },
+        "Name": {
+            "displayValue": null,
+            "value": "Test Contact"
+        },
+        "Phone": {
+            "displayValue": null,
+            "value": "(111) 222-1234"
+        },
+        "Title": {
+            "displayValue": null,
+            "value": "Sample Title"
+        }
+    },
+    "id": "0038b00003515lcAAA",
+    "lastModifiedById": "0058b00000GlmBHAAZ",
+    "lastModifiedDate": "2023-04-07T20:48:21.000Z",
+    "recordTypeId": "012000000000000AAA",
+    "recordTypeInfo": null,
+    "systemModstamp": "2023-04-07T20:48:21.000Z",
+    "weakEtag": 1680900501000
+}

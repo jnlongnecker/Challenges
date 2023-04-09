@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title={band.name} lwc:if={band}>
+        <div class="slds-p-around_medium">
+            <lightning-layout>
+                <lightning-layout-item>
+                    <p>{band.description}</p>
+                </lightning-layout-item>
+                <lightning-layout-item size="3">
+                    <img src={band.image} />
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+</template>
