@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#09A10E</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Access the shopping cart app and see cart items.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Shopping Cart</label>
+    <navType>Standard</navType>
+    <tabs>Cart</tabs>
+    <tabs>CartItem__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Shopping_Cart_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,14 @@
+div:first-child {
+  justify-self: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  align-items: center;
+}
+
+.checked {
+  background-color: rgb(220, 220, 220);
+  text-decoration: line-through;
+}

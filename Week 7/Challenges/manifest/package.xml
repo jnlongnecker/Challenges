@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>shoppingCartApp</member>
+        <members>cartItem</member>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>ShoppingCartController</member>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CartItem__c</member>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>CartItem__c</member>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Shopping_Cart</member>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Cart</member>
+        <name>Flexipage</name>
+    </types>
+    <version>53.0</version>
+</Package>

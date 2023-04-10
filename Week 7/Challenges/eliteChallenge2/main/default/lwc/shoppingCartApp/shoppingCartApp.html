@@ -1,0 +1,34 @@
+<template>
+    <lightning-card title={cardWelcomeText} icon-name="utility:cart">
+        <div class="slds-p-horizontal_medium">
+            <lightning-layout>
+                <lightning-layout-item size="8">
+                    <lightning-input lwc:ref="input" label="Item Name" placeholder="Input your item"></lightning-input>
+                    <lightning-slider lwc:ref="quantity" label="Quantity" size="large" min="1" max="50"
+                        value="1"></lightning-slider>
+                </lightning-layout-item>
+                <lightning-layout-item>
+                    <div class="align-center slds-p-around_medium">
+                        <lightning-button-group>
+                            <lightning-button variant="brand-outline" icon-name="utility:add" label="Confirm"
+                                onclick={addItem}></lightning-button>
+                            <lightning-button variant="destructive-text" icon-name="utility:close" icon-position="right"
+                                label="Cancel" onclick={clearInput}></lightning-button>
+                        </lightning-button-group>
+                    </div>
+                </lightning-layout-item>
+            </lightning-layout>
+            <div class="cart-holder slds-m-top_medium" lwc:if={cartItems}>
+                <template iterator:it={cartItems}>
+                    <div key={it.value.Name}>
+                        <c-cart-item item={it.value} onitemchange={handleChange}></c-cart-item>
+                        <template lwc:if={it.last}></template>
+                        <template lwc:else>
+                            <hr />
+                        </template>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </lightning-card>
+</template>

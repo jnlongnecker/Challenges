@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="Painter" onmousedown={setMouseDown} onmouseup={setMouseUp}>
+        <div class="slds-p-around_medium">
+            <lightning-layout>
+                <lightning-layout-item size="10">
+                    <ul onchange={updateColor}>
+                        <li>
+                            <lightning-slider lwc:ref="red" label="Red" max="250" value="100"></lightning-slider>
+                        </li>
+                        <li>
+                            <lightning-slider lwc:ref="green" label="Green" max="250" value="100"></lightning-slider>
+                        </li>
+                        <li>
+                            <lightning-slider lwc:ref="blue" label="Blue" max="250" value="100"></lightning-slider>
+                        </li>
+                    </ul>
+                </lightning-layout-item>
+                <div class="custom-center">
+                    <div lwc:ref="preview" class="medium" style={colorStyle}></div>
+                </div>
+            </lightning-layout>
+            <div class="slds-align_absolute-center slds-m-top_medium">
+                <div class="grid">
+                    <template iterator:it={pixels}>
+                        <div key={it.value} class="small" onmousemove={paint} onmousedown={tileClick} draggable="false">
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>
